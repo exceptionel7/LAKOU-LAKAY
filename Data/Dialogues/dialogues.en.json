@@ -1,0 +1,36 @@
+{
+  "langue": "en",
+  "note": "English subtitles. Same keys as dialogues.ht.json.",
+  "lignes": [
+    {
+      "cle": "grann.byenveni.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Welcome home, my child. This neighborhood needs kind-hearted people.",
+      "cleAudio": "VO_grann_byenveni_01"
+    },
+    {
+      "cle": "grann.konsèy.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Little by little, the bird builds its nest. Don't rush, but don't stop.",
+      "cleAudio": "VO_grann_konsey_01"
+    },
+    {
+      "cle": "fresnel.enfo.01",
+      "locuteur": "Fresnel",
+      "texte": "They're holding people in the old warehouse. Be careful, guards everywhere.",
+      "cleAudio": "VO_fresnel_enfo_01"
+    },
+    {
+      "cle": "nadèj.lekòl.01",
+      "locuteur": "Nadège",
+      "texte": "If we can reopen the school, the children will have a chance.",
+      "cleAudio": "VO_nadej_lekol_01"
+    },
+    {
+      "cle": "danel.plan.01",
+      "locuteur": "Danel",
+      "texte": "Franko, cover me. I'll free the hostages quietly.",
+      "cleAudio": "VO_danel_plan_01"
+    }
+  ]
+}

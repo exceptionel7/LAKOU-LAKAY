@@ -1,0 +1,36 @@
+{
+  "langue": "es",
+  "note": "Subtítulos en español. Mismas claves que dialogues.ht.json.",
+  "lignes": [
+    {
+      "cle": "grann.byenveni.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Bienvenido a casa, mi niño. El barrio necesita gente de buen corazón.",
+      "cleAudio": "VO_grann_byenveni_01"
+    },
+    {
+      "cle": "grann.konsèy.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Poco a poco, el pájaro hace su nido. No te apures, pero no te detengas.",
+      "cleAudio": "VO_grann_konsey_01"
+    },
+    {
+      "cle": "fresnel.enfo.01",
+      "locuteur": "Fresnel",
+      "texte": "Tienen gente retenida en el antiguo almacén. Cuidado, hay guardias por todas partes.",
+      "cleAudio": "VO_fresnel_enfo_01"
+    },
+    {
+      "cle": "nadèj.lekòl.01",
+      "locuteur": "Nadège",
+      "texte": "Si logramos reabrir la escuela, los niños tendrán una oportunidad.",
+      "cleAudio": "VO_nadej_lekol_01"
+    },
+    {
+      "cle": "danel.plan.01",
+      "locuteur": "Danel",
+      "texte": "Franko, cúbreme. Voy a liberar a los rehenes en silencio.",
+      "cleAudio": "VO_danel_plan_01"
+    }
+  ]
+}

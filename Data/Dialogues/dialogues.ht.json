@@ -1,0 +1,36 @@
+{
+  "langue": "ht",
+  "note": "Langue source (kreyòl ayisyen). Les clés 'cle' et 'cleAudio' sont partagées avec toutes les traductions. Textes à faire relire/écrire par des locuteurs natifs.",
+  "lignes": [
+    {
+      "cle": "grann.byenveni.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Byenveni lakay, pitit mwen. Katye a bezwen moun ki gen bon kè.",
+      "cleAudio": "VO_grann_byenveni_01"
+    },
+    {
+      "cle": "grann.konsèy.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Piti piti zwazo fè nich li. Pa prese, men pa kanpe.",
+      "cleAudio": "VO_grann_konsey_01"
+    },
+    {
+      "cle": "fresnel.enfo.01",
+      "locuteur": "Fresnel",
+      "texte": "Yo kenbe kèk moun nan ansyen depo a. Fè atansyon, gen gad toupatou.",
+      "cleAudio": "VO_fresnel_enfo_01"
+    },
+    {
+      "cle": "nadèj.lekòl.01",
+      "locuteur": "Nadège",
+      "texte": "Si nou ka fè lekòl la louvri ankò, timoun yo ap gen yon chans.",
+      "cleAudio": "VO_nadej_lekol_01"
+    },
+    {
+      "cle": "danel.plan.01",
+      "locuteur": "Danel",
+      "texte": "Franko, ou kouvri m. Mwen pral lage moun yo an silans.",
+      "cleAudio": "VO_danel_plan_01"
+    }
+  ]
+}
