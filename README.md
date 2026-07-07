@@ -16,10 +16,16 @@ ni stigmatiser le peuple haïtien.
 
 ---
 
+## 🚀 Démarrage rapide
+
+Le projet est un **projet Unreal Engine 5 compilable** (fichier `.uproject`, code C++, configs).
+Pour l'ouvrir, le compiler et lancer un test coop 2 joueurs : suis le guide **[SETUP.md](SETUP.md)**.
+
 ## 📚 Documentation
 
 | Document | Description |
 |---|---|
+| [SETUP.md](SETUP.md) | **Guide pas-à-pas** : ouvrir, compiler et tester le projet dans UE5 |
 | [docs/GDD.md](docs/GDD.md) | Game Design Document (concept, univers, personnages, mécaniques) |
 | [docs/architecture-projet.md](docs/architecture-projet.md) | Arborescence du projet Unreal Engine 5 |
 | [docs/assets.md](docs/assets.md) | Liste d'assets graphiques/sonores + droits d'auteur |
@@ -30,12 +36,18 @@ ni stigmatiser le peuple haïtien.
 
 ```
 LakouLakay/
+├── LakouLakay.uproject    # Fichier projet Unreal
+├── Config/                # DefaultEngine/Game/Input.ini (maps, online, entrées)
+├── SETUP.md               # Guide de démarrage
 ├── docs/                  # Documentation de conception
-├── Source/LakouLakay/     # Code C++ (personnage, réseau, dialogue, sessions)
-│   ├── Characters/        # Personnage jouable (mouvement, Enhanced Input)
-│   ├── Core/              # GameState répliqué, PlayerController (RPC)
-│   ├── Online/            # Sessions coop 2 joueurs (héberger / rejoindre)
-│   └── Dialogue/          # Gestionnaire de dialogue multilingue
+├── Source/
+│   ├── LakouLakay.Target.cs / LakouLakayEditor.Target.cs
+│   └── LakouLakay/        # Code C++ du module
+│       ├── LakouLakay.Build.cs / .h / .cpp   # Module
+│       ├── Characters/    # Personnage jouable (mouvement, Enhanced Input)
+│       ├── Core/          # GameMode, GameState répliqué, PlayerController (RPC)
+│       ├── Online/        # Sessions coop 2 joueurs (héberger / rejoindre)
+│       └── Dialogue/      # Gestionnaire de dialogue multilingue
 ├── Data/Dialogues/        # Dialogues créole (source) + FR / EN / ES
 └── README.md
 ```

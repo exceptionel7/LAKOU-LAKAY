@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "Game",
+	"Description": "LAKOU LAKAY - jeu coopératif en ligne (2 joueurs) sous Unreal Engine 5.",
+	"Modules": [
+		{
+			"Name": "LakouLakay",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
+			"Enabled": true,
+			"Comment": "Coop cross-platform gratuite. Alternative PC : OnlineSubsystemSteam."
+		}
+	]
+}
