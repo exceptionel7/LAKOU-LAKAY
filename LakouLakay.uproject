@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "5.8",
 	"Category": "Game",
 	"Description": "LAKOU LAKAY - jeu coopératif en ligne (2 joueurs) sous Unreal Engine 5.",
 	"Modules": [
