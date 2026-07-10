@@ -52,7 +52,8 @@ void ULakouSessionSubsystem::RejoindreParRecherche()
     SessionSearch = MakeShareable(new FOnlineSessionSearch());
     SessionSearch->bIsLanQuery = false;
     SessionSearch->MaxSearchResults = 10;
-    SessionSearch->QuerySettings.Set(SEARCH_PRESENCE, true, EOnlineComparisonOp::Equals);
+    // Recherche par "présence" (amis) : à réactiver lors de la configuration d'EOS/Steam.
+    // SessionSearch->QuerySettings.Set(SEARCH_PRESENCE, true, EOnlineComparisonOp::Equals);
 
     FindHandle = SessionInterface->AddOnFindSessionsCompleteDelegate_Handle(
         FOnFindSessionsCompleteDelegate::CreateUObject(this, &ULakouSessionSubsystem::HandleFindSessionsComplete));

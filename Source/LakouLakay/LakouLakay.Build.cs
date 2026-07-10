@@ -7,6 +7,10 @@ public class LakouLakay : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
+        // Permet les inclusions relatives à la racine du module
+        // (ex. #include "Characters/LakouCharacter.h" depuis Core/).
+        PublicIncludePaths.Add(ModuleDirectory);
+
         // Modules publics dont dépend le jeu.
         PublicDependencyModuleNames.AddRange(new string[]
         {
