@@ -9,8 +9,10 @@
 #include "Interfaces/OnlineSessionInterface.h"
 #include "LakouSessionSubsystem.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCreateSessionComplete, bool, bSucces);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnJoinSessionComplete, bool, bSucces);
+// Noms préfixés "Lakou" pour éviter les collisions avec les délégués internes
+// du moteur (FOnCreateSessionComplete / FOnJoinSessionComplete existent déjà).
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLakouCreateSessionComplete, bool, bSucces);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLakouJoinSessionComplete, bool, bSucces);
 
 UCLASS()
 class LAKOULAKAY_API ULakouSessionSubsystem : public UGameInstanceSubsystem
@@ -28,8 +30,8 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Online")
     void RejoindreParRecherche();
 
-    UPROPERTY(BlueprintAssignable) FOnCreateSessionComplete OnCreateSessionComplete;
-    UPROPERTY(BlueprintAssignable) FOnJoinSessionComplete OnJoinSessionComplete;
+    UPROPERTY(BlueprintAssignable) FLakouCreateSessionComplete OnCreateSessionComplete;
+    UPROPERTY(BlueprintAssignable) FLakouJoinSessionComplete OnJoinSessionComplete;
 
 protected:
     IOnlineSessionPtr SessionInterface;
