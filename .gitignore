@@ -1,0 +1,27 @@
+# Unreal Engine — dossiers générés / temporaires
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Backup/
+
+# Fichiers IDE / OS
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vs/
+*.xcodeproj
+*.xcworkspace
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Config interne Kiro (spécifique à la machine)
+.kiro/

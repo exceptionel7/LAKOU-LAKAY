@@ -1,0 +1,36 @@
+{
+  "langue": "fr",
+  "note": "Sous-titres français. Mêmes clés que dialogues.ht.json.",
+  "lignes": [
+    {
+      "cle": "grann.byenveni.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Bienvenue à la maison, mon enfant. Le quartier a besoin de gens de bon cœur.",
+      "cleAudio": "VO_grann_byenveni_01"
+    },
+    {
+      "cle": "grann.konsèy.01",
+      "locuteur": "Grann Ilména",
+      "texte": "Petit à petit, l'oiseau fait son nid. Ne te précipite pas, mais ne t'arrête pas.",
+      "cleAudio": "VO_grann_konsey_01"
+    },
+    {
+      "cle": "fresnel.enfo.01",
+      "locuteur": "Fresnel",
+      "texte": "Ils retiennent des gens dans l'ancien entrepôt. Prudence, il y a des gardes partout.",
+      "cleAudio": "VO_fresnel_enfo_01"
+    },
+    {
+      "cle": "nadèj.lekòl.01",
+      "locuteur": "Nadège",
+      "texte": "Si on arrive à rouvrir l'école, les enfants auront une chance.",
+      "cleAudio": "VO_nadej_lekol_01"
+    },
+    {
+      "cle": "danel.plan.01",
+      "locuteur": "Danel",
+      "texte": "Franko, tu me couvres. Je vais libérer les otages en silence.",
+      "cleAudio": "VO_danel_plan_01"
+    }
+  ]
+}
